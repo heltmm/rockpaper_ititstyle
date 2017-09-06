@@ -6,7 +6,6 @@ class Rps
     @toss
   end
   def beats?(toss2)
-
     if ((@toss == "rock") && (toss2 == "scissors"))
       true
     elsif ((@toss == "paper") && (toss2 == "rock"))
@@ -17,4 +16,5 @@ class Rps
       false
     end
   end
+  
 end

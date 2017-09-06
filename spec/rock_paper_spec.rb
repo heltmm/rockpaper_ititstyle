@@ -2,9 +2,10 @@ require('rspec')
 require('rock_paper')
 
 describe('#rock_paper') do
-rock = Rps.new('rock')
-paper = Rps.new('paper')
-scissors = Rps.new('scissors')
+
+  rock = Rps.new('rock')
+  paper = Rps.new('paper')
+  scissors = Rps.new('scissors')
 
 
   it("returns true if rock is the object and scissors is the argument") do
